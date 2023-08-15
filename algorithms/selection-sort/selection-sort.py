@@ -8,7 +8,7 @@ def selectionSort(arr):
             
         if i != min_index:
             arr[i], arr[min_index] = arr[min_index], arr[i]
-    return arr
+   
 
 # Unsorted Array: 2,3,4,1,6
-result = selectionSort(input) #Sorted Array: 1,2,3,4,6
+selectionSort(input) #Sorted Array: 1,2,3,4,6
