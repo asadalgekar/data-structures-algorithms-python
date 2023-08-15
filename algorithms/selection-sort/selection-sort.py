@@ -1,3 +1,6 @@
+
+# Time: Best: Ω(n^2) Average: Θ(n^2) Worst:O(n^2)	
+# Space: O(1)
 input =[2, 3, 4, 1, 6]
 def selectionSort(arr):
     for i in range(len(arr) - 1):
