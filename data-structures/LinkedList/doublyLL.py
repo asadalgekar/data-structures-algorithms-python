@@ -74,12 +74,10 @@ class DoublyLL:
             return
         
         current = self.head
-        previous = None
         while current:
             next_node = current.next
-            current.next = previous
+            current.next = current.prev
             current.prev = next_node
-            previous = current
             current = next_node
         self.head, self.tail = self.tail, self.head
 
